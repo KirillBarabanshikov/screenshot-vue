@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-import ScreenshotProvider from "./components/ScreenshotProvider.vue";
+import MagnifierProvider from "./components/MagnifierProvider.vue";
 </script>
 
 <template>
-  <ScreenshotProvider>
+  <MagnifierProvider>
     <div>
       <a href="https://vite.dev" target="_blank">
         <img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -14,7 +14,7 @@ import ScreenshotProvider from "./components/ScreenshotProvider.vue";
       </a>
     </div>
     <HelloWorld msg="Vite + Vue" />
-  </ScreenshotProvider>
+  </MagnifierProvider>
 </template>
 
 <style scoped>

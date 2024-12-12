@@ -5,7 +5,7 @@ defineProps<{ msg: string }>()
 
 const count = ref(0)
 
-const toggleScreenshot = inject('toggleScreenshot') as () => Promise<void>;
+const toggleScreenshot = inject('toggleMagnifier') as () => Promise<void>;
 </script>
 
 <template>
